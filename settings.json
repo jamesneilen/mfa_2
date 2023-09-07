@@ -1,0 +1,31 @@
+{
+    "files.autoSave": "afterDelay",
+    "launch": {
+        "configurations": [
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/find.html",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        }
+        ]
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "window.zoomLevel": 1,
+    "dart.openDevTools": "flutter",
+    "cmake.configureOnOpen": true,
+    "git.enableSmartCommit": true
+}
